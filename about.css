@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 33);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 5rem;
+    background-color: rgb(18, 18, 62);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 1.438rem;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul a:hover {
+    color: rgb(153, 153, 216);
+}
+.about{
+    margin-top: 2rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
+.drivesMe{
+    margin-top: 2rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
+.expertise{
+    margin-top: 2rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
+.approach{
+    margin-top: 2rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
+.connect{
+    margin-top: 2rem;
+    font-size: medium;
+    margin-left: 1rem;
+}
+footer{
+    
+    background-color: #0c0c2d;
+    
+}
+.footer{
+    display: flex;
+    padding: 1.438rem 7.625rem;
+    justify-content: space-evenly;
+
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 13.875rem;
+}
+.footer-rights{
+    background-color: #000000;
+    color: gray;
+    text-align: center;
+    padding: 0.75rem 0;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    color: lavender;
+}
+@media(max-width:998px){
+    html {
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 45%;
+    }
+}
